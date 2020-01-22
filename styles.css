@@ -141,3 +141,11 @@ h5 {
 .bar {
   height: 100%;
 }
+
+/* leaflet */
+
+.leaflet-control { /* leaflet legends, control boxes */
+  font-family: 'Lato';
+  font-weight: 300;
+  color: #958984;
+}
