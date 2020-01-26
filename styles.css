@@ -149,3 +149,12 @@ h5 {
   font-weight: 300;
   color: #958984;
 }
+
+/* figure captions */
+
+.caption {
+  font-family: 'Lato';
+  font-weight: 300;
+  color: #958984;
+  font-style: italic;
+}
