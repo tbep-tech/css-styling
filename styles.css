@@ -9,30 +9,21 @@
 /* Fira Mono, for centering bar plots in reactable */
 @import url("//fonts.googleapis.com/css?family=Karla:400,700|Fira+Mono&display=fallback");
 
+/* Whole document: */
+
+body{
+  font-family: 'Lato';
+}
+
 /* header styles */
 
-h1 {
+h1,h2,h3 {
   font-family: 'Lato';
   font-weight: 300;
   color: #958984;
 }
-h2 {
-  font-family: 'Lato';
-  font-weight: 300;
-  color: #958984;
-}
-h3 {
-  font-family: 'Lato';
-  font-weight: 300;
-  color: #958984;
-}
-h4 {
-  font-family: 'Lato';
-  font-weight: 300;
-  color: #958984;
-  font-style: italic;
-}
-h5 {
+
+h4,h5 {
   font-family: 'Lato';
   font-weight: 300;
   color: #958984;
