@@ -1,4 +1,5 @@
-@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+/* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600;700&display=swap');
 
 /* Frutiger Light approximate */
 @import url("//fonts.googleapis.com/css?family=Lato:100,300,500,700,900"); 
@@ -6,28 +7,26 @@
 /* DIN condensed approximate */
 @import url("//fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
 
-/* Fira Mono, for centering bar plots in reactable */
-@import url("//fonts.googleapis.com/css?family=Karla:400,700|Fira+Mono&display=fallback");
-
 /* Whole document: */
 
 body{
-  font-family: 'Lato';
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
 }
 
 /* header styles */
 
-h1,h2,h3 {
-  font-family: 'Lato';
-  font-weight: 300;
-  color: #958984;
+h1{
+  font-family: 'Rubik';
+  font-weight: 700;
+  color: #005293;
 }
 
-h4,h5 {
-  font-family: 'Lato';
-  font-weight: 300;
-  color: #958984;
-  font-style: italic;
+h2,h3,h4,h5 {
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #00806E
 }
 
 /* top navbar styles */
@@ -35,7 +34,7 @@ h4,h5 {
 .navbar {
   background-color:#00806E;
   border-color: black;
-  font-family: 'Lato'; /* main tab fonts */
+  font-family: 'Roboto'; /* main tab fonts */
   font-weight: 300;
 }
 
@@ -54,7 +53,7 @@ h4,h5 {
 /* sidebar */
 
 .sidebar {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   color: #958984;
 }
@@ -74,39 +73,39 @@ h4,h5 {
 /* sub sections */
 
 .level3 {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   color: #958984;
 }
 
 .chart-title {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   font-style: italic;
   color: #958984;
 }
 
 .nav-tabs {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   font-style: italic;
   color: #958984;
 }
 
 .control-label {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   color: #958984;
 }
 
 .shiny-text-output {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   color: #958984;
 }
 
 .material-switch {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   color: #958984;
 }
@@ -157,7 +156,7 @@ h4,h5 {
 /* leaflet */
 
 .leaflet-control { /* leaflet legends, control boxes */
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   color: #958984;
 }
@@ -165,7 +164,7 @@ h4,h5 {
 /* figure captions */
 
 .caption {
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-weight: 300;
   color: #958984;
   font-style: italic;
@@ -218,4 +217,33 @@ h4,h5 {
 .right-col-3a {
   right: 200px;
   border-left: 1px solid #eee !important;
+}
+
+/* wrapper class for centering images */
+#wrapper{
+ text-align:center;
+}
+
+.center {
+  display: block;
+  text-align:center;
+}
+
+/* change link colors to match wordpress */
+a:link {
+  color: #ea6f17;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ea6f17;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0078db;
+  background-color: transparent;
+  text-decoration: none;
 }
