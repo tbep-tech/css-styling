@@ -171,6 +171,11 @@ h6 {
   color: #958984;
 }
 
+/* removes all but one trace from the rangeslider */
+.rangeslider-rangeplot .overplot{
+  display:none;
+}
+ 
 /* figure captions */
 
 .caption {
